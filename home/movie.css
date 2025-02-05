@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #2E2F2F;
+}
+
+#nav_container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 70vw;
+  height: 15vh;
+  margin: auto;
+}
+
+#movie_title{
+  grid-area: 1 / 1 / 2 / 6;
+  font-size: 40px;
+  color: #eedcbc;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  align-self: end;
+  letter-spacing: 2.3px;
+}
+
+#btn_container{
+  grid-area: 1 / 6 / 2 / 7;
+  align-self: end;
+  margin-bottom: 35px;
+}
+
+#start_button{
+  background-color: #eedcbc; 
+  border: 1px solid black; 
+  font-size: 16px;
+  font-family: "Playfair Display", cursive;
+  color: black;           
+  height: 50px;
+  width: 175px;
+  transition: border 0.3s ease-in-out;
+}
+
+#start_button:hover {
+  border: 4px solid black;
+}
+
+.card{
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  border-radius: 19px;
+  text-align: center;
+  background-color: #B4B8AB;
+  width: calc(20vw - 20px);
+  color: #2E2F2F;
+  font-family: 'Playfair Display', serif;
+  min-height: 20vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button_container{
+  font-size: 20px;
+}
+
+.button_container a {
+  color: inherit; 
+}
+
+#review_creator{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 115px;
+}
+
+.card input[type="text"] {
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 8px; /* Padding inside the input */
+  border: 1px solid #2E2F2F; /* Light gray border */
+  border-radius: 5px; /* Rounded corners for the input */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  font-family: 'Playfair Display', serif; /* Font for the input */
+}
+
+
+#review_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.edit_btn{
+  font-size: 20px;
+  font-family: "Playfair Display", cursive;
+  color: #2E2F2F;
+  display: flex;
+  justify-content: center; /* Center the links if needed */
+  gap: 90px;
+}
+
+.edit_btn a {
+  color: inherit; /* Inherit the color from the parent element */
+}
+
+p{
+  font-size: 20px;
+}
+
+
+
+
+

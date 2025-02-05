@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #2E2F2F;
+}
+
+#background_container{
+  background-image: url('../images/movie_home.jpeg');
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  margin-top: 10vh;
+  align-items: center;
+  background-size: contain;
+}
+
+#logo_container{
+  width: 17vh;
+  height: 17vh;
+  transform: translateY(-4vh);
+}
+
+#logo{
+  width: 100%;
+  height: 100%;
+}
+
+#text_container{
+  margin-top: 8vh;
+  background-color: rgba(0, 0, 0, 0.69);
+  height: 40vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+#text_container h1{
+  color: #eedcbc;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin-top: 13vh;
+  font-weight: 400;
+  letter-spacing: 2.3px;
+  margin-bottom: 8vh;
+}
+
+
+form{
+  background-color: #242323;
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+}
+
+#query{
+  all: unset;
+  font: 15px system-ui;
+  color: #eedcbc;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+}
+
+#week_heading{
+  text-align: center;
+  color: #eedcbc;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin-top: 7vh;
+  font-weight: 400;
+}
+
+#movie_container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.card{
+  border-radius: 19px;
+  padding: 15px;
+  text-align: center;
+  background-color: #36454F;
+  width: 20vw;
+}
+
+.card h3{
+  color: #eedcbc;
+}
+
+.thumbnail{
+    height: 350px;
+    width: 92.5%;
+    border-radius: 19px;
+}
+a {
+  color: inherit; /* Inherit the color from the parent element */
+}
+
+
+
