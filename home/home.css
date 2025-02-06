@@ -12,7 +12,7 @@ html, body {
 }
 
 #background_container{
-  background-image: url('../images/movie_home.jpeg');
+  background-image: url('../images/Main.jpeg');
   display: flex;
   flex-direction: column;
   height: 80vh;
